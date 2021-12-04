@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favi.png">
+	<title>Login Subscriber</title>
+	<link rel="stylesheet" type="text/css" href="loginStyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- It will redirect to the Home Page after submitting the form -->
+  <!-- <script>
+  $(document).ready(function(){
+    $("form").submit(function(){
+      alert("Great Job !");
+    });
+  });
+  </script> -->
+</head> 
+<body>
+  <div class="form-box">
+    <div class="button-box">
+      <div id="btn"></div>
+      <!-- <button type="button" id="log"  style="color: #fff;">Log In</button> -->
+    </div>
+    <div class="social-icons">
+      <img src="images/icon/fb2.png">
+      <img src="images/icon/insta2.png">
+      <img src="images/icon/tt2.png">
+    </div>
+<form id="login" class="input-group" action="alogin.php" method="post">
+   
+    <div class="inp">
+        <img src="images/icon/user.png"><input type="text" name="Email" id="email" class="input-field" placeholder="Email" style="width: 88%; border:none;" required="required">
+    </div>
+    <div class="inp">
+        <img src="images/icon/password.png"><input name="Password" type="password" id="password" class="input-field" placeholder="Password" style="width: 88%; border: none;" required="required">
+    </div>
+    <input type="checkbox" name="check" class="check-box" required>Remember Password
+    <button type="submit" class="submit-btn">Log In</button>
+</form>
+</div>
+</body>
+</html>
