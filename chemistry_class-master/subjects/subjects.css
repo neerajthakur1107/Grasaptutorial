@@ -150,6 +150,14 @@ body {
 	color: #2E3D49;
 	margin-bottom: 50px;
 }
+.sub-heading{
+	text-align: center;
+	color: black;
+}
+.sub-heading1{
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
 
 /*Quick Links*/
 .course {
@@ -556,5 +564,15 @@ footer .btn:hover {
 		visibility: visible;
 		margin: 30px;
 		margin-top: 0px;
+	}
+}
+@media screen and (max-width: 420px) {
+	.sub-heading1{
+        margin-top: 20px;
+        margin-bottom: 1px;
+    }
+	.title {
+		margin-top: 50px;
+		margin-left: 10px;
 	}
 }
