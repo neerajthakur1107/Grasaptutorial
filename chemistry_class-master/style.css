@@ -930,10 +930,9 @@ header {
 }
 
 @media screen and (min-width: 1000px) {
-    .rank{
-		margin-top: 450px;
-
-	}
+   .rank{
+	   margin-top: 50px;
+   }
 	.maindiv{
 		width:90% ;
 		height: 400px;
