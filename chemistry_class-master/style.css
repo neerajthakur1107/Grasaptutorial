@@ -945,9 +945,15 @@ header {
 	   .rank{
 		margin-top: 50px;
 	}
+	@keyframes slider{
+   
+		0%{ background-image: url( 'images/extra/svg2.jpg'); background-size: 100% 100%;}
+		
+		50% {background-image: url('images/extra/rank_poster (1).jpg' ); background-size: 100% 100%; } 
+	}
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) and (max-width:1199px) {
    .rank{
 	   margin-top: 50px;
    }
