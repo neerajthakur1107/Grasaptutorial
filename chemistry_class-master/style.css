@@ -968,13 +968,7 @@ header {
 		font-size: 30px; 
 		padding: 100px;
 	}
-	.full_name{
-		margin-top: 80px;
-		margin-left: 1px;
-	}
-	.fn{
-		margin-top: 23px;
-	}
+	
 		   .maindiv{
 			   width:90% ;
 			   height: 400px;
@@ -999,6 +993,15 @@ header {
    
 		  }
    
+   }
+   @media  (min-width: 400px) and (max-width: 480px){
+	.full_name{
+		margin-top: 80px;
+		margin-left: 1px;
+	}
+	.fn{
+		margin-top: 23px;
+	}
    }
 /* @media screen and (min-width: 900px ) and (max-width:1280px) { */
 /* .slide{ 
