@@ -936,7 +936,8 @@ header {
 		height: 400px;
 		position: absolute;
 		left: 50%;
-		top: 65%;
+		top: 55%;
+		margin-bottom: 2%;
 		transform: translate(-50% , -50%);
 		background-image: url('images/extra/svg2.jpg');
 		background-size: 100% 100%;
