@@ -4,14 +4,13 @@
     include_once("database.php");
     $postdata = file_get_contents("php://input");
     if(isset($postdata) && !empty($postdata)) {
-        $fname = $_POST['fname'];
-        $lname = $_POST['lname'];
+        $name = $_POST['name'];
         $Email = $_POST['Email'];
         $message = $_POST['message'];
         $additional = $_POST['additional'];
         $to = "navin55545@live.com";
         $subject = "Contact request";
-        $txt = "contact details: ".$fname." ".$lname." ".$Email." /n
+        $txt = "contact details: ".$name." ".$Email." /n
          ".$message." /n 
          ".$additional." ";
          $txt = wordwrap($txt,70);
