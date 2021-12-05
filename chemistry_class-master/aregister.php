@@ -22,7 +22,7 @@
             // header('Location:aregister.html');
             echo ("<script LANGUAGE='JavaScript'>
             window. alert('email already exist');
-            window. location. href='http://localhost/chemistry_class-master/chemistry_class-master/aregister.html';
+            window. location. href='https://grasptutorials.com/aregister.html';
             </script>");  
         }else{
         if($Password==$cPassword){
@@ -54,7 +54,7 @@
             // header('Location:aregister.html');
             echo ("<script LANGUAGE='JavaScript'>
             window. alert('Password are not matching');
-            window. location. href='http://localhost/chemistry_class-master/chemistry_class-master/aregister.html';
+            window. location. href='https://grasptutorials.com/aregister.html';
             </script>");
         }
     }

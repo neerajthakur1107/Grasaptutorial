@@ -39,7 +39,7 @@
             }
             $subject="Email activation";
             $body="Hi,$Name. Click here too activate your account
-            http://localhost/chemistry_class-master/chemistry_class-master/activate.php?token=$token";
+            https://grasptutorials.com/activate.php?token=$token";
             $headers="From: navin55545@gmail.com";
             if(mail($Email,$subject,$body,$headers)){
                 $_SESSION['msg']="check your mail to activate your account $Email";

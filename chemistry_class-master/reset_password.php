@@ -29,7 +29,7 @@
             // echo '<script>alert("")</script>';
             echo ("<script LANGUAGE='JavaScript'>
             window. alert('password are not matching');
-            window. location. href='http://localhost/chemistry_class-master/chemistry_class-master/reset_password.html';
+            window. location. href='https://grasptutorials.com/reset_password.html';
             </script>");
         }
    

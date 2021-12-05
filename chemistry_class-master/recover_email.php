@@ -16,7 +16,7 @@
            $token = $userdata['token'];
            $subject="Email activation";
            $body="Hi,$Name. Click here too reset your password
-           http://localhost/chemistry_class-master/chemistry_class-master/reset_password.html?token=$token";
+           https://grasptutorials.com/reset_password.html?token=$token";
            $headers="From: navin55545@gmail.com";
            if(mail($Email,$subject,$body,$headers)){
                $_SESSION['msg']="check your mail to reset your password $Email";

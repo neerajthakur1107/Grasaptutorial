@@ -573,6 +573,9 @@ a, button {
 .imp {
 	color: red;
 }
+.us{
+	font-size: 50px; padding: 100px
+}
 form textarea {
 	width: 100%;
 	height: 100px;
@@ -924,13 +927,6 @@ header {
 	margin-top: -10%; 
 	margin-bottom: 11%;
 }
-.full_name{
-	margin-top: 80px;
-	margin-left: 1px;
-}
-.fn{
-	margin-top: 23px;
-}
 }
 
 @media screen and (min-width: 1000px) {
@@ -956,7 +952,29 @@ header {
    }
    @media (max-width: 479px){
    
-   
+	.csec {
+		background: linear-gradient(to right, #1F456E, #241571);
+		background-attachment: fixed; 
+		position: absolute;
+		width: 100%;
+		height: 250px;
+		top: 120px;
+		content: '';
+		transform-origin: top right;
+		transform: skewY(-10deg);
+		z-index: -1;
+	}
+	.us{
+		font-size: 30px; 
+		padding: 100px;
+	}
+	.full_name{
+		margin-top: 80px;
+		margin-left: 1px;
+	}
+	.fn{
+		margin-top: 23px;
+	}
 		   .maindiv{
 			   width:90% ;
 			   height: 400px;

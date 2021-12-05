@@ -25,7 +25,7 @@ if(isset($postdata) && !empty($postdata))
         // header('Location:slogin.html');
         echo ("<script LANGUAGE='JavaScript'>
         window. alert('password incorrect');
-        window. location. href='http://localhost/chemistry_class-master/chemistry_class-master/slogin.html';
+        window. location. href='https://grasptutorials.com/slogin.html';
         </script>");
     }
 }else{

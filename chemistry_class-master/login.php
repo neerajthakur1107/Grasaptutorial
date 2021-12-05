@@ -18,19 +18,19 @@ if(isset($postdata) && !empty($postdata))
     if($pass_decode){
         echo ("<script LANGUAGE='JavaScript'>
         window. alert('login successful');
-        window. location. href='http://localhost/chemistry_class-master/chemistry_class-master/index.html';
+        window. location. href='https://grasptutorials.com/index.html';
         </script>");
        
     }else{
         echo ("<script LANGUAGE='JavaScript'>
         window. alert('Password incorrect');
-        window. location. href='http://localhost/chemistry_class-master/chemistry_class-master/login.html';
+        window. location. href='https://grasptutorials.com/login.html';
         </script>");
     }
 }else{
     echo ("<script LANGUAGE='JavaScript'>
 window. alert('Invalid email or account not activated please check your email..');
-window. location. href='http://localhost/chemistry_class-master/chemistry_class-master/login.html';
+window. location. href='https://grasptutorials.com/login.html';
 </script>");
     // echo '<script>alert("Invalid email or account not activated please check your email..")</script>';
 }

@@ -19,7 +19,7 @@
         mail($to,$subject,$txt,$headers);
         echo ("<script LANGUAGE='JavaScript'>
             window. alert('successfully submitted');
-            window. location. href='http://localhost/chemistry_class-master/chemistry_class-master/index.html';
+            window. location. href='https://grasptutorials.com/index.html';
             </script>");
     }
 ?>
