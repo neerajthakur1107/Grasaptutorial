@@ -928,6 +928,24 @@ header {
 	margin-bottom: 11%;
 }
 }
+@media screen and (min-width: 1200px) {
+	.maindiv{
+		width:90% ;
+		height: 400px;
+		position: absolute;
+		left: 50%;
+		top: 55%;
+		margin-bottom: 2%;
+		transform: translate(-50% , -50%);
+		background-image: url('images/extra/svg2.jpg');
+		background-size: 100% 100%;
+		box-shadow: 1px 2px 10px 10px rgb(236, 234, 241);
+		animation:slider 16s infinite alternate ;
+	   }
+	   .rank{
+		margin-top: 50px;
+	}
+}
 
 @media screen and (min-width: 1000px) {
    .rank{
@@ -938,7 +956,7 @@ header {
 		height: 400px;
 		position: absolute;
 		left: 50%;
-		top: 55%;
+		top: 60%;
 		margin-bottom: 2%;
 		transform: translate(-50% , -50%);
 		background-image: url('images/extra/svg2.jpg');
