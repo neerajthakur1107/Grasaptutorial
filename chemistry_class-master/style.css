@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap'); */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
 
 * {
 	box-sizing: border-box;
@@ -1019,7 +1019,7 @@ header {
 		padding-left: -10%;
 		padding-right: -10%;
 		margin-bottom: 1%;
-		margin-top: 16%;
+		margin-left: 16%;
 
 	}
 	.sideImage {
