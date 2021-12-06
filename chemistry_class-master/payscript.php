@@ -1,6 +1,6 @@
 <?php
 
- $apiKey = "YOUR_RAZORPAY_KEY";
+ $apiKey = "rzp_test_stX8vHTKknevay";
 
 ?>
 
