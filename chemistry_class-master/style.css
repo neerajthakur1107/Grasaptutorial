@@ -266,7 +266,7 @@ a, button {
 	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b1.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: cursive;
+	font-family: sans-serif;
 	z-index: -9;
 }
 .smbox {
@@ -375,7 +375,7 @@ a, button {
 	border: 1px solid #1F456E;
 	font-size: 15px;
 	color: #272529;
-	font-family: cursive;
+	font-family: sans-serif;
 	text-decoration: none;
 }
 .cbox .det a:hover {
