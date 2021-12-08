@@ -983,10 +983,14 @@ header {
    }
    }
    @media (max-width: 479px){
-	.logo {
-		transition: 1s;
+	.logo img{
+		width: 120px;
+		cursor: pointer;
+		transition: all 1s;
 		margin-left: -80%;
 	}
+	
+	
 	.about-content {
 		width: 80%;
 		position: relative;
