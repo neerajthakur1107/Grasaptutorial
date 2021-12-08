@@ -876,6 +876,11 @@ footer .btn:hover {
 	}
 	.menu {
 		display: block;
+		margin-right:10px;
+		border: 2px solid #1F456E;
+		border-radius: 4px;
+		padding: 3px;
+		width: 35px;
 	}
 	nav {
 		padding-bottom: 20px;
@@ -978,6 +983,7 @@ header {
    }
    }
    @media (max-width: 479px){
+	
 	.about-content {
 		width: 80%;
 		position: relative;

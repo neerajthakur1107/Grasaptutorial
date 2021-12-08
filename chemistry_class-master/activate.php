@@ -6,16 +6,16 @@ if(isset($_GET['token'])){
     $updatequery = " update registers set status='active' where token='$token'";
     $query = mysqli_query($con,$updatequery);
     if($query){
-        if(isset($_SESSION['msg'])){
-            $_SESSION['msg']="Account updated successfully";
-            header('location"login.html');
-        }else{
-            $_SESSION['msg']="you are logged out.";
-            header('location"login.html');
-        }
+            echo ("<script LANGUAGE='JavaScript'>
+window. alert('Account updated successfully');
+window. location. href='https://grasptutorials.com/login.html';
+</script>");
+       
     }else{
-        $_SESSION['msg']="Account not updated";
-        header('location"login.html');
+        echo ("<script LANGUAGE='JavaScript'>
+        window. alert('Account not updated');
+        window. location. href='https://grasptutorials.com/login.html';
+        </script>");
     }
 }
 ?>
