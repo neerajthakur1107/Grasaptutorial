@@ -775,6 +775,10 @@ form textarea {
 }
 
 /*FOOTER*/
+.terms{
+	color: white;
+	 font-size:14px;
+   }
 footer {
 	color: #E5E8EF;
 	background: #151313;
@@ -983,6 +987,11 @@ header {
    }
    }
    @media (max-width: 479px){
+	   .terms{
+		color: white;
+		 font-size:14px;
+		 margin-left: 40px;
+	   }
 	.logo img{
 		width: 120px;
 		cursor: pointer;

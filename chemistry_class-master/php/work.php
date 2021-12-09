@@ -16,7 +16,7 @@ if(isset($_GET['login'])){
     $data=getMessages();
     foreach($data as $message){
       ?>
-<div class="card m-2 <?=$message['id']==$_SESSION['userdata']['id']?'float-end bg-info  ':''?>" style="width: 18rem;">
+<div class="card m-2 <?=$message['id']==$_SESSION['userdata']['id']?'float-end bg-info  ':''?>" style="width: 13rem;">
 <div class="card-body">
 <?=$message['id']!=$_SESSION['userdata']['id']?'<h5 class="card-title">'.$message['full_name'].'</h5>':''?>
 <h6 class="card-subtitle mb-2 text-muted"><?=date('d M Y, h:i A',strtotime($message['created_at']))?></h6>

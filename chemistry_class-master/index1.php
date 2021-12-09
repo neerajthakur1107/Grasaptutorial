@@ -18,8 +18,10 @@ if(isset($_SESSION['user']) && $_SESSION['user']==true){
 
 
 <body class="bg-primary">
+    
     <div class="container position-absolute top-50 start-50 translate-middle">
-        <div class="card col-6 mx-auto mt-2 signup shadow">
+        <!-- register form -->
+        <div class="card col-lg-6 col-sm-12 mx-auto mt-2 signup shadow" style="height:500px">
             <div class="card-body">
                 <h5 class="card-title">Signup</h5>
                 <hr>
@@ -46,8 +48,9 @@ if(isset($_SESSION['user']) && $_SESSION['user']==true){
                 </form>
             </div>
         </div>
-
-        <div class="card col-6 mx-auto mt-2 login shadow" style="display: none;">
+         <!-- form end -->
+         <!-- login start -->
+        <div class="card col-lg-6 col-sm-12 mx-auto mt-2 login shadow" style="height:500px;display: none;">
             <div class="card-body">
                 <h5 class="card-title">Login</h5>
                 <hr>
@@ -70,21 +73,21 @@ if(isset($_SESSION['user']) && $_SESSION['user']==true){
                 </form>
             </div>
         </div>
-        <div class="card col-6 mx-auto mt-2 chat shadow" style="display: none;">
+        <!-- login end -->
+        <!-- chat start -->
+        <div class="card col-lg-10 col-sm-12 mx-auto mt-2 chat shadow" style="display: none;">
             <div class="card-body">
             <div class="d-flex justify-content-between">
                 <h5 class="card-title">Group Chat</h5>
                 <a href="php/logout.php" class="btn btn-sm btn-danger">Logout</a>
                 </div>
                 <hr>
-                <div class="m-2 p-2" id="messages" class="" style="height:350px;overflow-y: scroll;">
+                <div class="m-2 p-2" id="messages" class="" style="height:400px;overflow-y: scroll;">
+            </div>
                 
-                    
-                   
-                </div>
-                <div class="mb-2 p-2 text-danger ts"></div>
+                <div class="mb-2 p-2 text-danger ts" ></div>
 
-                <div class="input-group mb-3">
+                <div class="input-group mb-3" >
 
                     <input type="text" id="msg" class="form-control" placeholder="Message..." aria-label="Recipient's username"
                         aria-describedby="button-addon2">
@@ -92,6 +95,7 @@ if(isset($_SESSION['user']) && $_SESSION['user']==true){
                 </div>
             </div>
         </div>
+        <!-- chat end -->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
