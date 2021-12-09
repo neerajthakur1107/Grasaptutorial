@@ -15,6 +15,14 @@ body {
 	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
 }
+.menu {
+	display: block;
+	margin-right:10px;
+	border: 2px solid #1F456E;
+	border-radius: 4px;
+	padding: 3px;
+	width: 35px;
+}
 
 /*Styling SCROLLBAR*/
 ::-webkit-scrollbar {
