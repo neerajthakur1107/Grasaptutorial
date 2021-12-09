@@ -5,7 +5,7 @@ if(isset($postdata) && !empty($postdata))
 {
     $Email = $_POST['Email'];
     $Password = $_POST['Password'];
-    if($Email=='shreyadabbawar@gmail.com' && $Password=="123"){
+    if($Email=='navin55545@gmail.com' && $Password=="Navin@2021"){
         header('Location:aregister.html');
     }
        

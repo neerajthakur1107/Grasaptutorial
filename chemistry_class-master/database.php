@@ -4,9 +4,9 @@ header("Access-Control-Allow-Methods: PUT, GET, POST, DELETE");
 header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'newchatapp');
+define('DB_USER', 'u560383184_graspTutorials');
+define('DB_PASS', 'Grasp@2021');
+define('DB_NAME', 'u560383184_Chemistry');
 
 function connect()
 {
