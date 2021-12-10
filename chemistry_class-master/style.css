@@ -253,6 +253,7 @@ a, button {
 	font-size: 1.1em;
 }
 
+
 /*PORTFOLIO*/
 .extra {
 	width: 100%;
@@ -987,6 +988,14 @@ header {
    }
    }
    @media (max-width: 479px){
+	   
+	   .port{
+		   width: 250px;
+		   margin-left: 5px;
+		   margin-right:5px;
+		   padding: 5px;
+	   }
+	   
 	   .terms{
 		color: white;
 		 font-size:14px;
